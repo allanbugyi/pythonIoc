@@ -56,11 +56,11 @@ softIoc_LDFLAGS += $(shell $(PYTHON_CONFIG) --ldflags)
 $(PYTHON_LIB)_DIR = $(PYTHON_LIB_DIR)
 
 # Support for devIocStats
-ifdef DEVIOCSTATS
-softIoc_DBD += devIocStats.dbd
-softIoc_LIBS += devIocStats
-DB += $(DEVIOCSTATS)/db/ioc.db
-endif
+#ifdef DEVIOCSTATS
+#softIoc_DBD += devIocStats.dbd
+#softIoc_LIBS += devIocStats
+#DB += $(DEVIOCSTATS)/db/ioc.db
+#endif
 
 
 # ----------------------------------------------------------------------

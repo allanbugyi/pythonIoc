@@ -22,4 +22,4 @@
 # DEVIOCSTATS = /dls_sw/prod/R3.14.12.3/support/devIocStats/3-1-5dls7
 
 # EPICS_BASE usually appears last so other apps can override stuff:
-EPICS_BASE=/dls_sw/epics/R3.14.12.3/base
+EPICS_BASE=/usr/local/epics/base
